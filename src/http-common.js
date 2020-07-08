@@ -2,7 +2,7 @@ import axios from 'axios';
 
 //Define a URL base da origem para consumo do servico
 export default axios.create({
-  baseURL: process.env.baseURL || 'http://localhost:3333/',
+  baseURL: `${process.env.baseURL}:${process.env.PORT}` || 'http://localhost:3333/',
   headers: {
     'Content-type': 'application/json',
   },
