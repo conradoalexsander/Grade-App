@@ -40,4 +40,6 @@ function App() {
   );
 }
 
+//this app is connected to heroku app
+
 export default App;
