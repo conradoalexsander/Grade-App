@@ -26,6 +26,8 @@ const GradeList = () => {
       .catch((e) => {
         console.log(e);
       });
+
+      console.log(process.env.baseURL)
   };
 
   const refreshList = () => {
