@@ -1,7 +1,7 @@
 import http from '../http-common';
 
 const getAll = () => {
-  console.log(http.get('/grade'))
+  console.log(process.env);
   return http.get('/grade');
 };
 
